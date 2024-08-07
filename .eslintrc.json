@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["../../.eslintrc-base.json"],
+
+  "rules": {
+    "import/no-unresolved": "off"
+  },
+  "parserOptions": {
+    "project": ["./tsconfig.json"] // Specify it only for TypeScript files
+  }
+}
